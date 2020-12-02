@@ -30,13 +30,23 @@
     <Compile Include="geometry\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="zadanie_5_2\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zadanie_5_2\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="z_5_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="пр5_2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Практическая_5.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="geometry\" />
+    <Folder Include="zadanie_5_2\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
