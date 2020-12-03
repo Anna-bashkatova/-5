@@ -1,20 +1,13 @@
 from zadanie_5_2 import *
 
-print("Размер помещения:")
-l = float(input("Длина - "))
-w = float(input("Ширина - "))
-h = float(input("Высота - "))
-r1 = module1.Room(l, w, h)
+r1 = module1.Room(3, 3.5, 2.7)
+print("Размер помещения:", r1.fullSerface()) #общая площадь квартиры
+r1.addWD(0.7, 2) #площадь окна
+r1.addWD(1.5, 1.6) #площадь окна
 
-flag = input("Есть неоклеиваемая поверхность? (1 - да, 2 - нет)")
-while flag == '1':
-  w = float(input("Ширина - "))
-  h = float(input("Высота - "))
-  r1.addWD(w, h)
-  flag = input("Добавить еще? (1 - да, 2 - нет) ")
+print("Площадь оклейки",r1.workSurface())
 
 print("Размер рулона:")
-l = float(input("Длина - "))
-w = float(input("Ширина - "))
-print("Площадь оклейки", r1.workSurface())
-print("Количество рулонов", r1.wallpapers(l, w))
+d = float(input("Длина - "))
+s = float(input("Ширина - "))
+print("Количество рулонов:", r1.wallpapers(d, s))

@@ -20,5 +20,5 @@ class Room:
     for i in self.wd:
       new_square -= i.square
     return new_square
-  def wallpapers(self, l, w):
-    return  int(self.workSurface() / (w * l))
+  def wallpapers(self, d, s):
+    return  int(self.workSurface() / (d * s))

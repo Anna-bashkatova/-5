@@ -39,10 +39,10 @@
     <Compile Include="z_5_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="пр5_2.py">
+    <Compile Include="geometry2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Практическая_5.py" />
+    <Compile Include="Пр_5_1.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="geometry\" />
