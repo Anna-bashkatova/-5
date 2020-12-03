@@ -1,6 +1,6 @@
 class Win_Door:
   def __init__(self, w, h):
-    self.square = w * h #площадь обьекта общая
+    self.square = w * h 
 
 class Room:
   def __init__(self, l, w, h):
@@ -20,5 +20,6 @@ class Room:
     for i in self.wd:
       new_square -= i.square
     return new_square
+
   def wallpapers(self, d, s):
     return  int(self.workSurface() / (d * s))
