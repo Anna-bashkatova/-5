@@ -5,7 +5,7 @@ print("Размер помещения:", r1.fullSerface()) #общая площ
 r1.addWD(0.7, 2) #площадь окна
 r1.addWD(1.5, 1.6) #площадь окна
 
-print("Площадь оклейки",r1.workSurface())
+print("Площадь оклейки",round(r1.workSurface(),2))
 
 print("Размер рулона:")
 d = float(input("Длина - "))
